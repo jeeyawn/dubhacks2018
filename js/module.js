@@ -108,3 +108,7 @@ window.onload = function() {
     generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
           
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
