@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">  
-    <meta name="author" content="Jiyun Yu, Jion Yi, Candice Miao">
+    <meta name="author" content="Jiyun Yu, Jion Yi, Candice Miao, Mino Nakamura">
     <meta name="description" content="This page was created for Dubhacks 2018">
     <meta name="keywords" content="dubhacks2018">
     <title>Dubhacks 2018</title>
@@ -13,6 +13,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans:900|Open+Sans" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/module.js"></script>
 </head>
 
 <body>
@@ -20,12 +23,27 @@
     <nav>
     </nav>
 
+    <section>
+        <h2>Definitions of Sexual Assault</h2>
+        <div id="quiz"></div>
+        <button id="submit">Check Answers</button>
+        <div id="results"></div>
+    </section>
+
     <main>
+        <section>
+            <div id="no-drop" class="drag-drop"> #no-drop </div>
+
+            <div id="yes-drop" class="drag-drop"> #yes-drop </div>
+            
+            <div id="outer-dropzone" class="dropzone">#outer-dropzone</div>
+            
+            <div id="inner-dropzone" class="dropzone">#inner-dropzone</div>
+        </section>
     </main>
 
     <footer>
     </footer>
-
 </body>
 
 </html>
