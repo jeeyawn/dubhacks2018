@@ -9,18 +9,54 @@
     <title>Dubhacks 2018</title>
 
     <!-- link to css stylesheet, normalize.css, fonts from googleapis, and bootstrap -->
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans:900|Open+Sans" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
 
-    <nav>
+  
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+          
+            <span></span>
+            <span></span>
+            <span></span>
+          
+            <ul id="menu">
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Login</li></a>
+                <a href="#"><li>Resources</li></a>
+                <a href="#"><li>Contact</li></a>
+            </ul>
+        </div>
     </nav>
 
     <main>
+        <div class="login-page">
+        <div class="form">
+          <form class="register-form">
+            <input type="text" placeholder="name"/>
+            <input type="password" placeholder="password"/>
+            <input type="text" placeholder="email address"/>
+            <button>create</button>
+            <p class="message">Already registered? <a href="#">Sign In</a> </p>
+          </form>
+          <form class="login-form">
+            <input type="text" placeholder="username"/>
+            <input type="password" placeholder="password"/>
+            <button>login</button>
+            <p class="message">Not registered? <a href="#">Create an account</a></p>
+          </form>
+        </div>
+      </div>
     </main>
 
     <footer>
