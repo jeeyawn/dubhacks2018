@@ -11,7 +11,7 @@ html {
     width: 360px;
     padding: 8% 0 0;
     margin: auto;
-  }
+}
 
 .form {
     position: relative;
@@ -131,6 +131,10 @@ body {
 
 .searchbox button:after {
     border: inset;
+}
+
+.card-icon {
+    width: 20px;
 }
 
 img {
