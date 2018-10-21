@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">  
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Jiyun Yu, Jion Yi, Candice Miao, Mino Nakamura">
     <meta name="description" content="This page was created for Dubhacks 2018">
@@ -10,33 +10,41 @@
     <title>Dubhacks 2018</title>
 
     <!-- link to css stylesheet, normalize.css, fonts from googleapis, and bootstrap -->
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans:900|Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
+        crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
- 
+
     <nav role="navigation">
         <div id="menuToggle">
             <input type="checkbox" />
-          
+
             <span></span>
             <span></span>
             <span></span>
-          
+
             <ul id="menu">
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Login</li></a>
-                <a href="#"><li>Resources</li></a>
-                <a href="#"><li>Contact</li></a>
+                <a href="#">
+                    <li>About</li>
+                </a>
+                <a href="#">
+                    <li>Login</li>
+                </a>
+                <a href="#">
+                    <li>Resources</li>
+                </a>
+                <a href="#">
+                    <li>Contact</li>
+                </a>
             </ul>
         </div>
     </nav>
@@ -61,42 +69,99 @@
                     <button><i aria-label="search" class="fa fa-search fa-flip-horizontal" aria-hidden="true"></i></button>
                 </div>
             </div>
-        </div> 
+        </div>
     </header>
 
     <main>
         <section>
-        <div class="container">
-            <!-- 1st card -->
-            <div class="row" style="width: 1200px;">
-                <div class="col-2">
-                </div>
-                <div class="col-8">
-                    <div class="card">
-                        <div class="card-body p-5">
-                            <h2 class="card-title">
-                                Lorem Ipsum
-                            </h2>
-                            <p class="card-text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
-                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                                qui officia deserunt mollit anim id est laborum.
-                            </p>
-                        </div>  
-                        <div class="card-footer text-muted">
-                            <p>#mystory &#183 rxxad</p> 
-                            <img class ="card-icon" src="img/heart.png">
-                            <p>67</p>
-                        </div> 
+            <div class="container">
+                <!-- card carousel -->
+                <div class="card-carousel">
+                    <div class="row" style="width: 1200px;">
+                        <div class="col-2">
+                            <!-- <div class="card">
+                                    <div class="card-body p-5">
+                                        <h2 class="card-title">
+                                            Lorem Ipsum
+                                        </h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                            culpa
+                                            qui officia deserunt mollit anim id est laborum.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                        <p>#mystory &#183 rxxad</p>
+                                        <img class="card-icon" src="img/heart.png">
+                                        <p>67</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
+                        <div class="col-8">
+                            <div class="card">
+                                <div class="card-body p-5">
+                                    <h2 class="card-title">
+                                        Lorem Ipsum
+                                    </h2>
+                                    <p class="card-text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat.
+                                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                        culpa
+                                        qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-muted">
+                                    <table>
+                                        <tr>
+                                            <td><p>#mystory &#183 rxxad</p></td>
+                                            <td><img class="card-icon" src="img/heart.png"></td>
+                                            <td><p>67</p></td>
+                                            <td><img class='card-icon' src='img/share.png'></td>
+                                            <td><p>8</p></td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <!-- <div class="card">
+                                    <div class="card-body p-5">
+                                        <h2 class="card-title">
+                                            Lorem Ipsum
+                                        </h2>
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                            consequat.
+                                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                            culpa
+                                            qui officia deserunt mollit anim id est laborum.
+                                        </p>
+                                    </div>
+                                    <div class="card-footer text-muted">
+                                        <p>#mystory &#183 rxxad</p>
+                                        <img class="card-icon" src="img/heart.png">
+                                        <p>67</p>
+                                    </div>
+                                </div>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
-                <div class="col-2">
-                </div>
             </div>
-        </div>
         </section>
     </main>
 

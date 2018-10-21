@@ -149,6 +149,23 @@ img {
     margin-bottom: 20px;
 }
 
+table, td {
+    padding: 5px;
+}
+
+td p {
+    vertical-align: auto;
+    padding-top: 13px;
+    padding-right: 13px;
+}
+
+td img {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-align: center;
+}
+
 #submit {
 	font-family: sans-serif;
 	font-size: 20px;
@@ -167,6 +184,22 @@ img {
     vertical-align: center;
     float: none; 
     margin-bottom: 10px; 
+    z-index: 1; 
+    /* -webkit-transform: scale(0.6) translateY(-2rem); */
+    cursor: pointer;
+    /* transform: scale(0.6) translateY(-2rem); */
+}
+
+.card:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 100%;
+    background-color: rgba(0,0,0,0.3);
+    bottom: -5rem;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
 }
 
 #submit:hover{
@@ -223,7 +256,18 @@ img {
     background-color: #4e4;
   }
 
-/* media queries stuff for responsive CSS -- example to start off with */
+/* blogpost card carousel -- inspiration from 
+https://www.jqueryscript.net/slider/Smooth-Card-Carousel-jQuery-CSS3.html*/
+
+.card-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+    
+
+/* media queries stuff for responsive CSS */
 @media (min-width: 598px) {
 
 }
